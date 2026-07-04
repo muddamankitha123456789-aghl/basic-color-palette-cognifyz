@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Landing Page - Level 2 Intermediate</title>
+    <link rel="stylesheet" href="landing-page-styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🎨</span>
+                <span>Cognifyz Academy</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#components">Components</a></li>
+                <li><a href="#examples">Examples</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="level-badge">Level 2: Intermediate</h1>
+            <h2>Task 3: Create a Landing Page</h2>
+            <p class="subtitle">Learn to design an engaging landing page for any product or service</p>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Master Landing Page Design</h1>
+            <p class="hero-subtitle">Develop skills in creating compelling, converting landing pages that engage users and drive action</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('components')">Learn Components</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('examples')">See Examples</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-illustration">
+                📱
+            </div>
+        </div>
+    </section>
+
+    <!-- Objective Section -->
+    <section class="objective-section">
+        <div class="container">
+            <h2>📋 Task Objective</h2>
+            <p class="objective-text">
+                Develop skills in creating an engaging landing page. You will learn to design a basic landing page 
+                for a fictional product or service, understanding key components like headlines, descriptions, 
+                visual hierarchy, and compelling calls-to-action.
+            </p>
+        </div>
+    </section>
+
+    <!-- Learning Steps -->
+    <section id="features" class="learning-steps">
+        <div class="container">
+            <h2>📚 Learning Steps</h2>
+            
+            <div class="steps-grid">
+                <!-- Step 1 -->
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Design Basic Landing Page</h3>
+                    <p class="step-subtitle">For a fictional product or service</p>
+                    <ul class="step-details">
+                        <li>📍 <strong>Identify key components:</strong>
+                            <ul class="nested-list">
+                                <li>Headline - Clear value proposition</li>
+                                <li>Brief description - What you offer</li>
+                                <li>CTA button - Clear call-to-action</li>
+                            </ul>
+                        </li>
+                        <li>🎯 <strong>Visual hierarchy:</strong>
+                            <ul class="nested-list">
+                                <li>Guide users through content</li>
+                                <li>Emphasize important elements</li>
+                                <li>Use size, color, and spacing</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Craft Compelling Content</h3>
+                    <p class="step-subtitle">Headline, description, and CTA button</p>
+                    <ul class="step-details">
+                        <li>✨ <strong>Compelling headline:</strong>
+                            <ul class="nested-list">
+                                <li>Grabs immediate attention</li>
+                                <li>Communicates main benefit</li>
+                                <li>Clear and concise</li>
+                            </ul>
+                        </li>
+                        <li>📝 <strong>Concise description:</strong>
+                            <ul class="nested-list">
+                                <li>Informative and engaging</li>
+                                <li>Explains key benefits</li>
+                                <li>Easy to understand</li>
+                            </ul>
+                        </li>
+                        <li>🔘 <strong>Eye-catching CTA:</strong>
+                            <ul class="nested-list">
+                                <li>Clear and actionable text</li>
+                                <li>Visually prominent</li>
+                                <li>Contrasts with background</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Components Section -->
+    <section id="components" class="components-section">
+        <div class="container">
+            <h2>🎨 Landing Page Components</h2>
+            
+            <div class="components-grid">
+                <!-- Component 1: Headline -->
+                <div class="component-card">
+                    <div class="component-icon">📌</div>
+                    <h3>Headline</h3>
+                    <p><strong>Purpose:</strong> Grab attention and communicate value</p>
+                    <div class="component-example">
+                        <h4>Example:</h4>
+                        <p>"Transform Your Productivity in Just 7 Days"</p>
+                    </div>
+                    <div class="component-tips">
+                        <strong>Tips:</strong>
+                        <ul>
+                            <li>Make it specific and benefit-focused</li>
+                            <li>Keep it under 10 words if possible</li>
+                            <li>Use powerful, action-oriented words</li>
+                            <li>Address user pain points or desires</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Component 2: Subheadline -->
+                <div class="component-card">
+                    <div class="component-icon">📝</div>
+                    <h3>Subheadline/Description</h3>
+                    <p><strong>Purpose:</strong> Elaborate on the main message</p>
+                    <div class="component-example">
+                        <h4>Example:</h4>
+                        <p>"Join thousands of professionals using our AI-powered platform to streamline workflows and save 10+ hours weekly."</p>
+                    </div>
+                    <div class="component-tips">
+                        <strong>Tips:</strong>
+                        <ul>
+                            <li>Expand on headline benefits</li>
+                            <li>Include social proof if possible</li>
+                            <li>Keep it scannable (2-3 sentences)</li>
+                            <li>Use simple, clear language</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Component 3: CTA Button -->
+                <div class="component-card">
+                    <div class="component-icon">🔘</div>
+                    <h3>Call-to-Action (CTA)</h3>
+                    <p><strong>Purpose:</strong> Guide users toward desired action</p>
+                    <div class="component-example">
+                        <h4>Example:</h4>
+                        <button class="btn btn-demo">Start Free Trial Now</button>
+                    </div>
+                    <div class="component-tips">
+                        <strong>Tips:</strong>
+                        <ul>
+                            <li>Use action verbs (Start, Get, Try, etc.)</li>
+                            <li>Create visual contrast</li>
+                            <li>Make it large and prominent</li>
+                            <li>Add urgency when appropriate</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Component 4: Hero Image -->
+                <div class="component-card">
+                    <div class="component-icon">🖼️</div>
+                    <h3>Hero Image/Visual</h3>
+                    <p><strong>Purpose:</strong> Create visual interest and context</p>
+                    <div class="component-example">
+                        <h4>Example:</h4>
+                        <div class="sample-image">📱 Product Screenshot</div>
+                    </div>
+                    <div class="component-tips">
+                        <strong>Tips:</strong>
+                        <ul>
+                            <li>Use high-quality images</li>
+                            <li>Show product in action</li>
+                            <li>Maintain visual balance</li>
+                            <li>Ensure fast loading times</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Component 5: Features/Benefits -->
+                <div class="component-card">
+                    <div class="component-icon">⭐</div>
+                    <h3>Features & Benefits</h3>
+                    <p><strong>Purpose:</strong> List key selling points</p>
+                    <div class="component-example">
+                        <h4>Example:</h4>
+                        <ul class="features-list">
+                            <li>✓ Easy to use</li>
+                            <li>✓ 24/7 Support</li>
+                            <li>✓ 100% Secure</li>
+                        </ul>
+                    </div>
+                    <div class="component-tips">
+                        <strong>Tips:</strong>
+                        <ul>
+                            <li>Focus on user benefits, not features</li>
+                            <li>Use 3-5 key points max</li>
+                            <li>Make them scannable with icons</li>
+                            <li>Address common objections</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Component 6: Social Proof -->
+                <div class="component-card">
+                    <div class="component-icon">👥</div>
+                    <h3>Social Proof</h3>
+                    <p><strong>Purpose:</strong> Build trust and credibility</p>
+                    <div class="component-example">
+                        <h4>Example:</h4>
+                        <p>"Trusted by 50,000+ users worldwide ⭐⭐⭐⭐⭐"</p>
+                    </div>
+                    <div class="component-tips">
+                        <strong>Tips:</strong>
+                        <ul>
+                            <li>Include user testimonials</li>
+                            <li>Show user/company logos</li>
+                            <li>Display ratings and reviews</li>
+                            <li>Highlight number of satisfied users</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Hierarchy Section -->
+    <section class="hierarchy-section">
+        <div class="container">
+            <h2>🎯 Visual Hierarchy Best Practices</h2>
+            
+            <div class="hierarchy-grid">
+                <div class="hierarchy-card">
+                    <h3>1. Size Matters</h3>
+                    <p>Larger elements draw attention first. Use size to emphasize importance.</p>
+                    <div class="hierarchy-demo">
+                        <div class="demo-text large">Large (Primary)</div>
+                        <div class="demo-text medium">Medium (Secondary)</div>
+                        <div class="demo-text small">Small (Tertiary)</div>
+                    </div>
+                </div>
+
+                <div class="hierarchy-card">
+                    <h3>2. Color & Contrast</h3>
+                    <p>Contrasting colors make important elements stand out and guide the eye.</p>
+                    <div class="hierarchy-demo">
+                        <div class="demo-color primary">Primary Color</div>
+                        <div class="demo-color secondary">Secondary Color</div>
+                        <div class="demo-color accent">Accent Color</div>
+                    </div>
+                </div>
+
+                <div class="hierarchy-card">
+                    <h3>3. Spacing & Alignment</h3>
+                    <p>White space and alignment create organization and guide user focus.</p>
+                    <div class="hierarchy-demo spacing">
+                        <div class="spacing-box">✓ Good Spacing</div>
+                    </div>
+                </div>
+
+                <div class="hierarchy-card">
+                    <h3>4. Typography</h3>
+                    <p>Font size, weight, and style create visual distinction between content levels.</p>
+                    <div class="hierarchy-demo">
+                        <div class="demo-typo heading">Heading Font</div>
+                        <div class="demo-typo body">Body Text Font</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Examples Section -->
+    <section id="examples" class="examples-section">
+        <div class="container">
+            <h2>💡 Live Landing Page Examples</h2>
+            
+            <div class="examples-tabs">
+                <button class="tab-btn active" onclick="showExample('tech')">Tech Product</button>
+                <button class="tab-btn" onclick="showExample('service')">Service</button>
+                <button class="tab-btn" onclick="showExample('saas')">SaaS Platform</button>
+                <button class="tab-btn" onclick="showExample('ecommerce')">E-Commerce</button>
+            </div>
+
+            <!-- Tech Product Example -->
+            <div id="tech" class="example-content active">
+                <div class="example-card">
+                    <div class="example-landing">
+                        <h1>CloudSync Pro</h1>
+                        <p class="example-desc">The smartest way to sync your files across all devices</p>
+                        <button class="btn btn-primary btn-large">Try Free for 30 Days</button>
+                        <div class="example-features">
+                            <div class="feat">✓ Real-time sync</div>
+                            <div class="feat">✓ 256-bit encryption</div>
+                            <div class="feat">✓ Works offline</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service Example -->
+            <div id="service" class="example-content">
+                <div class="example-card">
+                    <div class="example-landing">
+                        <h1>Professional Web Design</h1>
+                        <p class="example-desc">Get a stunning website that converts visitors into customers</p>
+                        <button class="btn btn-primary btn-large">Get Your Free Consultation</button>
+                        <div class="example-features">
+                            <div class="feat">✓ Custom design</div>
+                            <div class="feat">✓ Mobile responsive</div>
+                            <div class="feat">✓ SEO optimized</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SaaS Example -->
+            <div id="saas" class="example-content">
+                <div class="example-card">
+                    <div class="example-landing">
+                        <h1>TaskMaster Analytics</h1>
+                        <p class="example-desc">Track, analyze, and optimize your team's productivity</p>
+                        <button class="btn btn-primary btn-large">Start Your Free Trial</button>
+                        <div class="example-features">
+                            <div class="feat">✓ Real-time dashboards</div>
+                            <div class="feat">✓ Team analytics</div>
+                            <div class="feat">✓ Custom reports</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- E-Commerce Example -->
+            <div id="ecommerce" class="example-content">
+                <div class="example-card">
+                    <div class="example-landing">
+                        <h1>EcoStyle Organic Collection</h1>
+                        <p class="example-desc">Premium sustainable fashion that makes you feel good</p>
+                        <button class="btn btn-primary btn-large">Shop Now & Get 20% Off</button>
+                        <div class="example-features">
+                            <div class="feat">✓ 100% organic cotton</div>
+                            <div class="feat">✓ Free shipping</div>
+                            <div class="feat">✓ 30-day returns</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Principles Section -->
+    <section class="principles-section">
+        <div class="container">
+            <h2>🎓 Key Design Principles</h2>
+            
+            <div class="principles-grid">
+                <div class="principle-card">
+                    <div class="principle-number">1</div>
+                    <h3>Above the Fold</h3>
+                    <p>Most important content should be visible without scrolling. Include headline, subheadline, and CTA in the first viewport.</p>
+                </div>
+
+                <div class="principle-card">
+                    <div class="principle-number">2</div>
+                    <h3>Clear Value Proposition</h3>
+                    <p>Visitors should understand what you offer in 5 seconds. Be specific about benefits, not features.</p>
+                </div>
+
+                <div class="principle-card">
+                    <div class="principle-number">3</div>
+                    <h3>Single Focus</h3>
+                    <p>One primary CTA per page. Multiple CTAs dilute user focus and reduce conversion rates.</p>
+                </div>
+
+                <div class="principle-card">
+                    <div class="principle-number">4</div>
+                    <h3>Mobile First</h3>
+                    <p>Design for mobile devices first, then scale up. Most traffic comes from mobile devices.</p>
+                </div>
+
+                <div class="principle-card">
+                    <div class="principle-number">5</div>
+                    <h3>Trust Building</h3>
+                    <p>Include testimonials, logos, certifications, and social proof to build credibility and reduce friction.</p>
+                </div>
+
+                <div class="principle-card">
+                    <div class="principle-number">6</div>
+                    <h3>Fast Loading</h3>
+                    <p>Optimize images and minimize code. Slow pages lose visitors. Aim for under 3 seconds.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Exercise Section -->
+    <section class="exercise-section">
+        <div class="container">
+            <h2>✏️ Try It Yourself</h2>
+            <p class="exercise-intro">Use the form below to create your own landing page headline and CTA. See it updated in real-time!</p>
+            
+            <div class="exercise-grid">
+                <div class="exercise-form">
+                    <div class="form-group">
+                        <label for="product">Product/Service Name:</label>
+                        <input type="text" id="product" placeholder="e.g., CloudSync Pro" onkeyup="updatePreview()">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="headline">Headline:</label>
+                        <input type="text" id="headline" placeholder="Enter your compelling headline" onkeyup="updatePreview()">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="description">Description:</label>
+                        <textarea id="description" placeholder="Write a concise description" rows="3" onkeyup="updatePreview()"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cta">CTA Button Text:</label>
+                        <input type="text" id="cta" placeholder="e.g., Start Free Trial" onkeyup="updatePreview()">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="color">Choose Color Theme:</label>
+                        <select id="color" onchange="updatePreview()">
+                            <option value="blue">Blue (Tech)</option>
+                            <option value="green">Green (Growth)</option>
+                            <option value="orange">Orange (Energy)</option>
+                            <option value="purple">Purple (Premium)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="exercise-preview">
+                    <h3>Live Preview:</h3>
+                    <div class="preview-frame" id="previewFrame">
+                        <div class="preview-content">
+                            <h2 id="previewHeadline">Your Compelling Headline Here</h2>
+                            <p id="previewDescription">Your concise, engaging description will appear here.</p>
+                            <button class="btn btn-preview" id="previewCTA">Your CTA Text</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Common Mistakes Section -->
+    <section class="mistakes-section">
+        <div class="container">
+            <h2>⚠️ Common Landing Page Mistakes</h2>
+            
+            <div class="mistakes-grid">
+                <div class="mistake-card wrong">
+                    <h3>❌ Weak Headline</h3>
+                    <p class="mistake-example">"Welcome to Our Website"</p>
+                    <p class="mistake-reason">Vague and generic - doesn't communicate value</p>
+                </div>
+
+                <div class="mistake-card correct">
+                    <h3>✅ Strong Headline</h3>
+                    <p class="mistake-example">"Save 10 Hours Weekly on Task Management"</p>
+                    <p class="mistake-reason">Specific, benefit-focused, immediately valuable</p>
+                </div>
+
+                <div class="mistake-card wrong">
+                    <h3>❌ Too Many CTAs</h3>
+                    <p class="mistake-example">Learn More | Sign Up | Buy Now | Contact Us | Download</p>
+                    <p class="mistake-reason">Confuses users and dilutes conversion potential</p>
+                </div>
+
+                <div class="mistake-card correct">
+                    <h3>✅ Single Clear CTA</h3>
+                    <p class="mistake-example">Start Free Trial →</p>
+                    <p class="mistake-reason">One clear action reduces decision paralysis</p>
+                </div>
+
+                <div class="mistake-card wrong">
+                    <h3>❌ Feature-Focused</h3>
+                    <p class="mistake-example">"Our app has 500+ integrations and real-time syncing"</p>
+                    <p class="mistake-reason">Users don't care about features, they care about benefits</p>
+                </div>
+
+                <div class="mistake-card correct">
+                    <h3>✅ Benefit-Focused</h3>
+                    <p class="mistake-example">"Connect all your tools in one place. Done in minutes."</p>
+                    <p class="mistake-reason">Focuses on what user gains (saved time, simplicity)</p>
+                </div>
+
+                <div class="mistake-card wrong">
+                    <h3>❌ Poor Visual Hierarchy</h3>
+                    <p class="mistake-example">All text same size, same color, same weight</p>
+                    <p class="mistake-reason">No clear focal point - users don't know where to look</p>
+                </div>
+
+                <div class="mistake-card correct">
+                    <h3>✅ Clear Hierarchy</h3>
+                    <p class="mistake-example">Large headline → Smaller description → Prominent CTA</p>
+                    <p class="mistake-reason">Guides user eye and clarifies information priority</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources-section">
+        <div class="container">
+            <h2>📚 Useful Resources</h2>
+            
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>🎨 Design Tools</h3>
+                    <ul>
+                        <li><strong>Figma</strong> - Design and prototype</li>
+                        <li><strong>Canva</strong> - Easy design templates</li>
+                        <li><strong>Adobe XD</strong> - Professional design</li>
+                        <li><strong>Sketch</strong> - UI/UX design</li>
+                    </ul>
+                </div>
+
+                <div class="resource-card">
+                    <h3>📖 Learning Resources</h3>
+                    <ul>
+                        <li><strong>ConvertKit</strong> - Copywriting guide</li>
+                        <li><strong>CXL Institute</strong> - Landing page psychology</li>
+                        <li><strong>Unbounce Blog</strong> - Best practices</li>
+                        <li><strong>Neil Patel</strong> - Optimization tips</li>
+                    </ul>
+                </div>
+
+                <div class="resource-card">
+                    <h3>🔍 Inspiration Gallery</h3>
+                    <ul>
+                        <li><strong>Dribbble</strong> - Design showcase</li>
+                        <li><strong>Behance</strong> - Creative work</li>
+                        <li><strong>Awwwards</strong> - Website awards</li>
+                        <li><strong>Lands Design</strong> - Landing pages</li>
+                    </ul>
+                </div>
+
+                <div class="resource-card">
+                    <h3>📊 Analytics Tools</h3>
+                    <ul>
+                        <li><strong>Google Analytics</strong> - Track visitors</li>
+                        <li><strong>Hotjar</strong> - User behavior</li>
+                        <li><strong>Optimizely</strong> - A/B testing</li>
+                        <li><strong>Crazy Egg</strong> - Heatmaps</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Checklist Section -->
+    <section class="checklist-section">
+        <div class="container">
+            <h2>✅ Landing Page Checklist</h2>
+            
+            <div class="checklist-grid">
+                <div class="checklist-column">
+                    <h3>Content</h3>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> Clear, compelling headline
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> Subheadline explaining benefits
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> 3-5 key benefit points
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> Prominent CTA button
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> Social proof (testimonials, logos)
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> Hero image or video
+                    </label>
+                </div>
+
+                <div class="checklist-column">
+                    <h3>Design</h3>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> Clear visual hierarchy
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> Consistent color scheme
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> Mobile responsive
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> White space for breathing room
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> Readable typography
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> Fast loading times
+                    </label>
+                </div>
+
+                <div class="checklist-column">
+                    <h3>Functionality</h3>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> CTA button works
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> No broken links
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> Forms (if any) work
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> Contact info visible
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> Social links (if needed)
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox"> Analytics implemented
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>📞 Get Started Today</h2>
+            <p class="contact-subtitle">Ready to create your first landing page? Let's build something amazing!</p>
+            
+            <div class="contact-form">
+                <form onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tell us about your project" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Cognifyz Academy | Level 2: Intermediate | Task 3: Create a Landing Page</p>
+            <div class="footer-links">
+                <a href="#hero">Back to Top</a>
+                <a href="https://cognifyz.com" target="_blank">Cognifyz</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="landing-page-script.js"></script>
+</body>
+</html>
